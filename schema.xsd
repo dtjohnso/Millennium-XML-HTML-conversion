@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="Bibliography">
+    <complexType>
+      <sequence>
+        <element name="Item" maxOccurs="unbounded">
+          <complexType>
+            <sequence>
+              <element name="ItemTitle" type="string" />
+              <element name="ItemUniformTitle" type="string" />
+              <element name="ItemAuthor" type="string" />
+              <element name="ItemCallNum" type="string" />
+              <element name="ItemEdition" type="string" />
+              <element name="ItemPublication" type="string" />
+              <element name="ItemDescription" type="string" />
+              <element name="ItemSeries" type="string" />
+              <element name="ItemNote" type="string" />
+              <element name="ItemSubject" type="string" />
+              <element name="ItemAddAuthor" type="string" />
+              <element name="ItemAddTitle" type="string" />
+              <element name="ItemISBN" type="string" />
+              <element name="ItemTOC" type="string" />
+              <element name="ItemBibID" type="string" />
+              <element name="ItemBibIDTruncated" type="string" />
+            </sequence>
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+</schema>
